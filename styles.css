@@ -1,13 +1,15 @@
 body {
   background-color: black;
+  height: 100vh;
 }
 
 div#board {
   position: relative;
   width: 1024px;
-  height: 863px;
+  height: 790px;
   margin: auto;
   background: url("board.jpg") no-repeat;
+  background-size: contain;
 }
 div#messageArea {
   position: absolute;
@@ -16,19 +18,20 @@ div#messageArea {
   color: rgb(83, 175, 19);
 }
 table {
+
   position: absolute;
-  left: 173px;
-  top: 98px;
+  left: 160px;
+  top: 90px;
   border-spacing: 0;
-  border: 5px solid red;
 }
 td {
-  width: 94px;
-  height: 94px;
+  position: relative;
+  width: 85px;
+  height: 85px;
 }
 form {
   position: absolute;
-  bottom: 0px;
+  bottom: 8rem;
   right: 0px;
   padding: 15px;
   background-color: rgb(83, 175, 19);
@@ -43,3 +46,36 @@ form input {
 .miss {
   background: url("miss.png") no-repeat center center;
 }
+@media only screen and (max-width: 992.98px) {
+  div#board {
+    width: 800px;
+  }
+  table {
+
+    position: absolute;
+    left: 130px;
+    top: 75px;
+  }
+  td {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  div#board {
+    width: 400px;
+    height: 1000px;
+  }
+
+  table {
+    left: 65px;
+    top: 35px;
+  }
+
+  td {
+    width: 32px;
+    height: 32px;
+  }
+ 
+} 

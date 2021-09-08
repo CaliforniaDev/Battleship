@@ -127,7 +127,7 @@ var model = {
 
 function handleFireButton() {
   var guessInput = document.getElementById("guessInput");
-  var guess = guessInput.value;
+  var guess = guessInput.value.toUpperCase();
   controller.processGuess(guess);
   guessInput.value = "";
 };
@@ -172,15 +172,4 @@ function parseGuess(guess) {
 }
 
 
-// test code below
-var array = [true, false, true];
-function test(array) {
-  for (var i = 0; i < array.length; i++) {
-    console.log("we are testing index: " + i); // this stops
-    if (array[i] !== true) {
-      console.log("This is not the way");
-      return false;
-    }
-  }
-  return true;
-};
+
