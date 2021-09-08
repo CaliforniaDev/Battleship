@@ -41,10 +41,10 @@ form input {
   border-color: rgb(83, 175, 19);
 }
 .hit {
-  background: url("ship.png") no-repeat center center;
+  background: url("battle-img/ship.png") no-repeat center center;
 }
 .miss {
-  background: url("miss.png") no-repeat center center;
+  background: url("battle-img/miss.png") no-repeat center center;
 }
 @media only screen and (max-width: 992.98px) {
   div#board {
