@@ -50,6 +50,9 @@ form input {
   div#board {
     width: 800px;
   }
+  form {
+    bottom: 5rem;
+  }
   table {
 
     position: absolute;
@@ -63,6 +66,10 @@ form input {
 }
 
 @media only screen and (max-width: 750px) {
+  form {
+    bottom: inherit;
+    top: 21rem;
+  }
   div#board {
     width: 400px;
     height: 1000px;
