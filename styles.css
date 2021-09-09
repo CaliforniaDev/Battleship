@@ -30,13 +30,15 @@ td {
   height: 85px;
 }
 form {
+  font-size: 20px;
   position: absolute;
   bottom: 8rem;
-  right: 0px;
+  right: -50px;
   padding: 15px;
   background-color: rgb(83, 175, 19);
 }
 form input {
+  font-size: 16px;
   background-color: rgb(152, 207, 113);
   border-color: rgb(83, 175, 19);
 }
