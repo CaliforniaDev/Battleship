@@ -41,10 +41,10 @@ form input {
   border-color: rgb(83, 175, 19);
 }
 .hit {
-  background: url("battle-img/ship.png") no-repeat center center;
+  background: url("ship.png") no-repeat center center;
 }
 .miss {
-  background: url("battle-img/miss.png") no-repeat center center;
+  background: url("miss.png") no-repeat center center;
 }
 @media only screen and (max-width: 992.98px) {
   div#board {
@@ -53,12 +53,13 @@ form input {
   table {
 
     position: absolute;
-    left: 130px;
+    left: 140px;
     top: 75px;
+    border: 1px solid cyan;
   }
   td {
-    width: 70px;
-    height: 70px;
+    width: 72px;
+    height: 73px;
   }
 }
 
@@ -74,8 +75,8 @@ form input {
   }
 
   td {
-    width: 32px;
-    height: 32px;
+    width: 36px;
+    height: 36px;
   }
  
 } 
